@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header qismi */
+.header {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 1940px;
+  background-image: url(/img/img/Blue-Apron-vs.-Green-Chef-Similarities.jpg);
+}
+.header_img {
+  width: 40%;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 600px;
+}
+.header_img > img {
+  width: 30%;
+  height: 30%;
+  object-fit: contain;
+}
+.header_text > h2 {
+  color: #06558d;
+  width: 600px;
+  margin-left: 400px;
+  padding-top: 30px;
+}
+button {
+  border: 2px solid red;
+  background-color: orange;
+  padding: 10px 80px;
+  margin-right: 90px;
+  border: 1px solid orange;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  margin: 8px 0px 8px 400px;
+}
+.header_text p {
+  margin-left: 400px;
+}
+
+button > a {
+  text-decoration: none;
+  color: #fff;
+}
+/* section qismi */
+
+.tutorial {
+  background-color: #06558d;
+  color: white;
+  font-family: sans-serif;
+  padding: 25px 0px;
+}
+.tutorial > h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.tutorial_menu {
+  gap: 20px;
+  display: flex;
+  margin: 0px 200px;
+}
+.menu_box {
+  width: 33.3%;
+  text-align: center;
+}
+.menu_box > img {
+  width: 250px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.menu_box > h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18.72px;
+  margin-bottom: 10px;
+}
+/* main qismi */
+main {
+  padding: 30px 200px;
+}
+main > h1 {
+  text-align: center;
+  color: #06558d;
+  margin-bottom: 30px;
+}
+.post {
+  display: flex;
+  gap: 20px;
+}
+.post_img {
+  width: 40%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.post_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.post_about {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.post_about > h3 {
+  color: #06558d;
+}
+.post_about > p {
+  color: #4b5b66;
+}
+hr {
+  margin: 50px 0px;
+}
+.end {
+  text-align: center;
+  color: #06558d;
+}
+.end > button {
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.end > button > a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+.end > p {
+  padding-top: 5px;
+  font-size: 15px;
+  justify-content: center;
+}
+footer {
+  height:55vh;
+  background-color: #06558d;
+}
+.footer_text {
+  color: #06558d;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.trustpilot {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trustpilot_img {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.trustpilot_img img {
+  width: 20%;
+  height: 20%;
+}
+.trustpilot_text {
+  font-size: 25px;
+}
